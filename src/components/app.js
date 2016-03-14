@@ -4,7 +4,9 @@ import { Component } from 'react';
 export default class App extends Component {
   render() {
     return (
-      <div>Blog</div>
+      <div>
+        {this.props.children}
+      </div>
     );
   }
 }
